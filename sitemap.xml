@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Sitemap creado siguiendo el blueprint de SEO Local Master -->
+
+<!-- PÁGINA PRINCIPAL - Máxima prioridad (1.00) -->
+<url>
+  <loc>https://floreriadfleur.com/</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<!-- PÁGINAS DE CATEGORÍAS SECUNDARIAS - Alta prioridad (0.80) -->
+<url>
+  <loc>https://floreriadfleur.com/tienda-flores-secas-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/floreria-mayorista-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/tienda-regalos-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/entrega-flores-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/tienda-canasta-regalos-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<!-- SERVICIOS ESPECÍFICOS - Categoría: Tienda de Flores Secas -->
+<url>
+  <loc>https://floreriadfleur.com/ramos-de-flores-secas-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/centros-de-mesa-con-flores-secas-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/coronas-de-flores-secas-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/flores-secas-en-jarron-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- SERVICIOS ESPECÍFICOS - Categoría: Florería Mayorista -->
+<url>
+  <loc>https://floreriadfleur.com/venta-de-flores-al-por-mayor-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/flores-de-temporada-al-mayor-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/paquetes-para-florerias-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/flores-para-eventos-corporativos-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- SERVICIOS ESPECÍFICOS - Categoría: Tienda de Regalos -->
+<url>
+  <loc>https://floreriadfleur.com/regalos-para-cumpleanos-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/detalles-para-aniversarios-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/desayunos-sorpresa-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/cajas-sorpresa-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- SERVICIOS ESPECÍFICOS - Categoría: Entrega de Flores -->
+<url>
+  <loc>https://floreriadfleur.com/entrega-a-domicilio-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/entrega-el-mismo-dia-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/entrega-programada-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/entrega-en-hospitales-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- SERVICIOS ESPECÍFICOS - Categoría: Tienda de Canastas de Regalos -->
+<url>
+  <loc>https://floreriadfleur.com/canastas-de-frutas-y-flores-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/canastas-gourmet-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/canastas-para-bebes-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://floreriadfleur.com/anchetas-amor-antofagasta.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- PÁGINA DE CATÁLOGO - Soporte general -->
+<url>
+  <loc>https://floreriadfleur.com/catalogo.html</loc>
+  <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+
+</urlset>

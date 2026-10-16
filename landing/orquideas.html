@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Orquídeas frescas a domicilio en Antofagasta, Región de Antofagasta. Arreglos de orquídeas blancas y de colores. Entrega el mismo día. D'Fleur - Frescura garantizada.">
+    <meta name="keywords" content="orquideas, flores orquideas, orquideas a domicilio, orquideas blancas, ramo de orquideas, orquideas flores, orquideas antofagasta">
+    <meta property="og:title" content="Orquídeas a Domicilio en Antofagasta | D'Fleur">
+    <meta property="og:description" content="Las mejores orquídeas frescas entregadas a domicilio en Antofagasta. Ramos de orquídeas blancas y de colores. Envío mismo día.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1566873535350-a3f5d4a804b7?w=1200&q=80">
+    <meta property="og:url" content="https://floreriadfleur.com/landing/orquideas">
+    <meta property="og:type" content="website">
+    <meta name="language" content="es-CL">
+    <meta name="geo.placename" content="Antofagasta, Región de Antofagasta">
+    <meta name="geo.region" content="CL-AN">
+    <link rel="canonical" href="https://floreriadfleur.com/landing/orquideas">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18163228199"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18163228199');
+</script>
+<!-- Event snippet for conversion -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18163228199/rdZwCIbo-qwcEKe889RD',
+        'value': 1.0,
+        'currency': 'CLP',
+        'event_callback': callback
+    });
+    return false;
+  }
+</script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/landing.css">
+
+        <link rel="icon" type="image/png" href="../assets/logo.png">
+
+
+    <title>Orquídeas Frescas a Domicilio en Antofagasta | D'Fleur Floristería</title>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="D'Fleur - Florería en Antofagasta">
+            </div>
+            <nav class="nav">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#productos" class="nav-link">Productos</a>
+            </nav>
+            <button class="cta-btn" onclick="contactWA(); return false;">Contactar por WhatsApp</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Orquídeas Frescas a Domicilio en Antofagasta</h1>
+            <p class="hero-subtitle">Orquídeas blancas y de colores con entrega el mismo día en toda Antofagasta</p>
+            <button class="hero-cta" onclick="contactWA(); return false;">
+                <span>💬 Pedir Ahora por WhatsApp</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Catálogo Completo -->
+    <section class="catalog-filters" id="productos">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" class="search-input" id="search-input" placeholder="Buscar ramos, rosas, girasoles, gerberas...">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <button class="search-clear" id="search-clear">&times;</button>
+            </div>
+            <div class="filters-container">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="ramos">Ramos</button>
+                <button class="filter-btn" data-filter="centros-mesa">Centros de Mesa</button>
+                <button class="filter-btn" data-filter="pedestales">Pedestales</button>
+                <button class="filter-btn" data-filter="corazones">Corazones</button>
+                <button class="filter-btn" data-filter="cajas">Cajas</button>
+                <button class="filter-btn" data-filter="coronas-funebres">Coronas Fúnebres</button>
+                <button class="filter-btn" data-filter="especiales">Especiales</button>
+                <button class="filter-btn" data-filter="decoracion">Decoración</button>
+                <button class="filter-btn" data-filter="premium">Premium</button>
+                <button class="filter-btn" data-filter="precio-bajo">Hasta $30.000</button>
+                <button class="filter-btn" data-filter="precio-medio">$30.000 - $80.000</button>
+                <button class="filter-btn" data-filter="precio-alto">Más de $80.000</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="results-counter">
+        <div class="container">
+            Mostrando <strong id="results-count">0</strong> productos
+        </div>
+    </div>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="products-container"></div>
+            <div class="empty-state" id="empty-state">
+                <h3>No se encontraron productos</h3>
+                <p>Intenta con otro filtro o término de búsqueda</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Sorprende Hoy, Sonríen Mañana</h2>
+            <p>Haz tu pedido de orquídeas ahora mismo. Entregamos cada día en toda Antofagasta.</p>
+            <button class="cta-button-large" onclick="orderWA(); return false;">
+                📞 WhatsApp: +56 9 5008 6800
+            </button>
+            <p class="cta-subtitle">Servicio continuo - Respuesta inmediata</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p><strong>D'Fleur</strong> - Florería en Antofagasta, Región de Antofagasta, Chile</p>
+                <p>WhatsApp: <a href="https://wa.me/56950086800">+56 9 5008 6800</a></p>
+                <p>Entrega a domicilio en toda la ciudad</p>
+            </div>
+            <p class="footer-copyright">&copy; 2026 D'Fleur. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "D'Fleur",
+        "image": "https://floreriadfleur.com/assets/logo.png",
+        "description": "Florería especializada en orquídeas frescas a domicilio en Antofagasta, Región de Antofagasta.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Antofagasta",
+            "addressRegion": "Región de Antofagasta",
+            "addressCountry": "CL"
+        },
+        "telephone": "+56950086800",
+        "url": "https://floreriadfleur.com",
+        "priceRange": "$$",
+        "sameAs": "https://wa.me/56950086800"
+    }
+    </script>
+
+    <!-- JS -->
+    <script src="../js/landing.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        LANDING_PRIORITY_TAG = 'premium';
+        initCatalog();
+    });
+    </script>
+</body>
+</html>
