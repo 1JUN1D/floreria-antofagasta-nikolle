@@ -1,7 +1,7 @@
         /* Service page specific styles */
         .service-hero {
             height: 50vh;
-            background: linear-gradient(135deg, rgba(131, 63, 74, 0.9), rgba(234, 190, 129, 0.7)), url('assets/35.png');
+            background: linear-gradient(135deg, rgba(131, 63, 74, 0.9), rgba(234, 190, 129, 0.7)), url('assets/webp/35.webp');
             background-size: cover;
             background-position: center;
             display: flex;

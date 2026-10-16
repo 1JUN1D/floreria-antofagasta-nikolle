@@ -85,7 +85,7 @@ img { max-width: 100%; height: auto; display: block; }
     text-align: center;
     color: #fff;
     background-color: var(--negro);
-    background-image: url('../../assets/31.png');
+    background-image: url('../../assets/webp/31.webp');
     background-size: cover;
     background-position: center;
     overflow: hidden;

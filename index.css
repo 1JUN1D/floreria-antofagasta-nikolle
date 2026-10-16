@@ -1,0 +1,163 @@
+/* ═══════════════════════════════════════════════════════════════
+   D'FLEUR · Inicio (index.html) — tipografía y paleta de las landings
+   Se carga después de styles.css y solo en index.html
+   ═══════════════════════════════════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --negro: #151515;
+    --negro-suave: #232323;
+    --dorado: #D9B569;
+    --dorado-suave: #F3E7C9;
+    --crema: #FFFDF9;
+    --linea: #EAE2D2;
+    --gris: #6b6b6b;
+    --serif: 'Cormorant Garamond', serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--negro);
+    background: var(--crema);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ───────── Navegación ───────── */
+.navbar { background: rgba(21, 21, 21, .96); border-bottom: 1px solid #333; }
+.nav-menu a {
+    color: #a3a3a3;
+    font-size: .76rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
+}
+.nav-menu a:hover { color: var(--dorado); border-color: var(--dorado); }
+.hamburger span { background: var(--dorado); }
+
+/* ───────── Hero ───────── */
+.hero-overlay { background: linear-gradient(180deg, rgba(21,21,21,.78) 0%, rgba(21,21,21,.6) 55%, rgba(21,21,21,.88) 100%); }
+.hero-content h1 {
+    font-family: var(--serif);
+    font-weight: 700;
+    color: var(--dorado);
+    letter-spacing: .5px;
+    line-height: 1.08;
+    text-shadow: none;
+}
+.hero-subtitle { font-style: normal; color: #d6d6d6; font-size: clamp(1rem, 2.2vw, 1.2rem); }
+
+.cta-button {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    background: var(--dorado);
+    color: var(--negro);
+    border: 1px solid var(--dorado);
+    padding: 14px 28px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .82rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: none;
+    text-decoration: none;
+    transition: background .2s, color .2s;
+}
+.cta-button:hover { background: transparent; color: var(--dorado); transform: none; box-shadow: none; }
+.catalog-btn { background: transparent !important; color: var(--dorado); }
+.catalog-btn:hover { background: var(--dorado) !important; color: var(--negro); }
+
+/* ───────── Títulos de sección ───────── */
+.section-title {
+    font-family: var(--serif);
+    font-size: clamp(1.9rem, 3.6vw, 2.5rem);
+    font-weight: 700;
+    color: var(--negro);
+    text-transform: none;
+    letter-spacing: .5px;
+}
+.section-title::after { height: 1px; width: 120px; background: linear-gradient(90deg, transparent, var(--dorado), transparent); }
+
+/* ───────── Productos destacados ───────── */
+.products { background: var(--crema); }
+.product-card {
+    background: #fff;
+    border: 1px solid var(--linea);
+    border-radius: 6px;
+    box-shadow: none;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s;
+}
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(21,21,21,.10); border-color: var(--dorado); }
+.product-badge {
+    background: var(--dorado);
+    color: var(--negro);
+    border-radius: 3px;
+    font-size: .62rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    box-shadow: none;
+}
+.product-name { font-family: 'Poppins', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--negro); }
+.product-description { font-size: .85rem; color: var(--gris); margin-bottom: .8rem; }
+.product-price { font-size: 1.15rem; font-weight: 600; color: var(--negro); }
+.order-btn {
+    background: var(--negro);
+    color: var(--dorado);
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .9px;
+    transition: background .2s, color .2s;
+}
+.order-btn:hover { background: var(--dorado); color: var(--negro); transform: none; }
+
+/* ───────── Galería ───────── */
+.gallery { background: var(--negro); }
+.gallery .section-title { color: var(--dorado); }
+.photo-item { border-radius: 6px; }
+
+/* ───────── Servicios ───────── */
+.services { background: var(--crema); }
+.service-item h2 { font-family: var(--serif); font-size: 2.2rem; font-weight: 700; color: var(--negro); line-height: 1.1; }
+.service-item p { font-size: .98rem; color: var(--gris); }
+.service-btn {
+    background: transparent;
+    color: var(--negro);
+    border: 1px solid var(--negro);
+    border-radius: 4px;
+    padding: 12px 26px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background .2s, color .2s, border-color .2s;
+}
+.service-btn:hover { background: var(--negro); color: var(--dorado); transform: none; box-shadow: none; }
+.service-image img { border-radius: 6px; box-shadow: 0 14px 30px rgba(21,21,21,.12); }
+
+/* ───────── Ubicación ───────── */
+.location { background: var(--crema); }
+.map-container { border-radius: 6px; border: 1px solid var(--linea); box-shadow: none; }
+
+/* ───────── Footer ───────── */
+.footer { background: var(--negro); }
+.footer-brand { font-family: var(--serif); color: var(--dorado); letter-spacing: 3px; }
+.footer-year { color: #bdbdbd; }
+.instagram-icon { color: var(--dorado); background: rgba(217,181,105,.1); }
+.instagram-icon:hover { color: var(--negro); background: var(--dorado); }
+
+/* ───────── Móvil ───────── */
+@media (max-width: 768px) {
+    .nav-menu { background-color: rgba(21, 21, 21, .98); }
+    .hero-content h1 { font-size: 2.6rem; }
+    .service-item h2 { font-size: 1.7rem; }
+}
+@media (max-width: 480px) {
+    .hero-content h1 { font-size: 2.2rem; }
+}
+
+/* Separación entre los botones del hero (solo escritorio) */
+@media (min-width: 769px) {
+    .hero-content .cta-button { margin-left: 8px; margin-right: 8px; }
+}
