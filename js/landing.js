@@ -17,7 +17,7 @@
 })();
 
 // Configuración global
-const WA_NUMBER = '56950086800';
+const WA_NUMBER = '56936187973';
 const BUSINESS_NAME = "D'Fleur";
 const ADS_CONVERSION_ID = 'AW-18163228199/rdZwCIbo-qwcEKe889RD';
 
