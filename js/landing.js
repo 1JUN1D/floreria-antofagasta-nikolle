@@ -19,7 +19,7 @@
 // Configuración global
 const WA_NUMBER = '56936187973';
 const BUSINESS_NAME = "D'Fleur";
-const ADS_CONVERSION_ID = 'AW-18163228199/rdZwCIbo-qwcEKe889RD';
+const ADS_CONVERSION_ID = 'AW-18163228199/YJA8COue6KsdEKe889RD';
 
 // Secciones del catálogo (mismo orden que catalogo.html)
 const SECCIONES = [
@@ -107,14 +107,16 @@ function priceLabel(p) {
 
 /* ─── Tracking de conversión Google Ads ─── */
 function trackConversion(url) {
+    var abierto = false;
+    function abrir() { if (abierto) return; abierto = true; window.open(url, '_blank'); }
     try {
         if (typeof gtag === 'function') {
             gtag('event', 'conversion', {
                 'send_to': ADS_CONVERSION_ID,
-                'event_callback': function () { window.open(url, '_blank'); }
+                'event_callback': abrir
             });
-            // Fallback en caso de que el callback no dispare
-            setTimeout(function () { window.open(url, '_blank'); }, 1500);
+            // Fallback en caso de que el callback no dispare (abre una sola vez)
+            setTimeout(abrir, 800);
         } else {
             window.open(url, '_blank');
         }
