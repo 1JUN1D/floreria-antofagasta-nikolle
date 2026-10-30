@@ -19,7 +19,7 @@
 // Configuración global
 const WA_NUMBER = '56936187973';
 const BUSINESS_NAME = "D'Fleur";
-const ADS_CONVERSION_ID = 'AW-18163228199/YJA8COue6KsdEKe889RD';
+const ADS_CONVERSION_ID = 'AW-17389033791/9eEzCMm2ya4dEL-y3uNA';
 
 // Secciones del catálogo (mismo orden que catalogo.html)
 const SECCIONES = [
